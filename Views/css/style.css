@@ -46,6 +46,11 @@
 .btn:hover {
     color: #fff;
 }
+
+a {
+    text-decoration: none;
+}
+
 /*
 サイド
 ****/
