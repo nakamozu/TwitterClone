@@ -51,6 +51,16 @@ html {
     color: #fff;
 }
 
+.btn-reverse {
+    border: 1px solid #1af;
+    color: #1af;
+    background-color: #fff;
+}
+
+.btn-reverse:hover {
+    color: #1af;
+}
+
 a {
     font-size: 13px;
     color: #1af;
@@ -302,4 +312,55 @@ body.signup {
     background-color: #123;
     border-color: #1af;
     color: #fff;
+}
+
+/*
+ユーザー画面
+****/
+.profile .profile-area {
+    padding: 25px;
+}
+
+.profile .profile-area .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.profile .profile-area .top .user {
+    width: 30%;
+    padding: 5px 15px 10px 0;
+}
+
+.profile .profile-area .top .user img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid rgb(235, 238, 240);
+}
+
+.profile .profile-area .top button {
+    margin-bottom: 20px;
+}
+
+.profile .profile-area .name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile .profile-area .follow-follower {
+    padding: 15px 0 10px 0;
+    display: flex;
+}
+
+.profile .profile-area .follow-follower .follow-count {
+    width: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile .profile-area .follow-follower .follow-text {
+    color: #778;
+    font-size: 16px;
+    width: 100px;
+    margin-right: 30px;
 }
